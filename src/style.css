@@ -39,6 +39,19 @@ header {
     margin: left 10px;
 }
 
+main {
+    padding: 30px;
+}
+
+.weather-app-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather-app-city {
+    
+}
+
 footer {
     border-bottom:1px solid #f7f7fe;
     padding: 30px 0 0 0;
