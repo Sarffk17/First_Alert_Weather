@@ -49,7 +49,18 @@ main {
 }
 
 .weather-app-city {
-    
+    margin: 0;
+    font-size: 38px;
+    line-height: 48px;
+}
+.weather-app-details {
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(39, 33, 66, .4);
+}
+
+.weather-app-details strong {
+    color: #f65282;
 }
 
 footer {
