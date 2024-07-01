@@ -61,8 +61,8 @@ main {
 
 .weather-app-details strong {
     color: #f65282;
-}
-
+  }
+  
 .weather-app-current-temp-icon {
     position: relative;
     top: -8px;

@@ -1,8 +1,9 @@
 function searchNewCityData(event) {
     event.preventDefault();
     let searchInput = document.querySelector("#searchFormInput");
-    console.log(searchInput.value);
+    let cityElement = document.querySelector("#city");
+    cityElement.innerHTML = searchInput.value;
 } 
 
-let searchFormElement = document.searchFormElement("#searchForm");
-searchFormElement.addEventListen("submit", searchNewCityData);
+let searchFormElement = document.querySelector("#searchForm");
+searchFormElement.addEventListener("submit", searchNewCityData);
