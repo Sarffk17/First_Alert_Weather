@@ -22,3 +22,5 @@ function searchNewCityData(event) {
 
 let searchFormElement = document.querySelector("#searchForm");
 searchFormElement.addEventListener("submit", searchNewCityData);
+
+searchCity("Orlando");
