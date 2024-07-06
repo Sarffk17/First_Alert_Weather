@@ -52,7 +52,35 @@ function searchNewCityData(event) {
     searchCity(searchInput.value);
 } 
 
+function searchForecast() {
+  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
+  let forecastHtml = "";
+
+  days.forEach(function (day) {
+    forecastHtml =
+      forecastHtml +
+      `
+      <div class="weather-app-forecast-weekDays">
+        <div class="weekDay">${day}</div>
+          <div class="weekDayIcon">☀️</div>
+          <div class="weekDayTemps">
+          <div class="weekDayTemp">
+            <strong>77°</strong> 
+          </div>
+          <div class="weekDayTemp">89°</div>
+        </div>
+      </div>
+      `;
+    });
+
+    let forecastElement = document.querySelector("#forecast");
+    forecastElement.innerHTML = forecastHtml;
+}
+
 let searchFormElement = document.querySelector("#searchForm");
 searchFormElement.addEventListener("submit", searchNewCityData);
 
 searchCity("Orlando");
+searchForecast();
+
+
