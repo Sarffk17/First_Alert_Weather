@@ -96,9 +96,9 @@ main {
 }
 
 .weekDayIcon {
-    text-align: center;
-    font-size: 16px;
-    margin-bottom: 10px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
 .weekDayTemps {

@@ -54,30 +54,48 @@ function searchNewCityData(event) {
     searchCity(searchInput.value);
 } 
 
+function formatDay(timestamp) {
+  let date = new Date(timestamp * 1000);
+  let days = [
+    "Sun",
+    "Mon",
+    "Tue",
+    "Wed",
+    "Thu",
+    "Fri",
+    "Sat"
+  ];
+
+  return days[date.getDay()];
+}
+
 function getForecast(city) {
   let apiKey = "4tao58d1a814447011bb9de5e3623b3f";
   let apiUrl = `https://api.shecodes.io/weather/v1/forecast?query=${city}&key=${apiKey}&units=imperial`;
   axios.get(apiUrl).then(searchForecast);
 }
 function searchForecast(response) {
-  let days = ["Tue", "Wed", "Thu", "Fri", "Sat"];
   let forecastHtml = "";
 
-  days.forEach(function (day) {
+  response.data.daily.forEach(function (day, index) {
+    if (index < 5) {
     forecastHtml =
       forecastHtml +
       `
       <div class="weather-app-forecast-weekDays">
-        <div class="weekDay">${day}</div>
-          <div class="weekDayIcon">☀️</div>
+        <div class="weekDay">${formatDay(day.time)}</div>
+          <div class="weekDayIcon">
+            <img src="${day.condition.icon_url}" class="weekDayIcon" />
+          </div>
           <div class="weekDayTemps">
           <div class="weekDayTemp">
-            <strong>77°</strong> 
+            <strong>${Math.round(day.temperature.maximum)}°</strong> 
           </div>
-          <div class="weekDayTemp">89°</div>
+          <div class="weekDayTemp">${Math.round(day.temperature.minimum)}</div>
         </div>
       </div>
       `;
+    }
     });
 
     let forecastElement = document.querySelector("#forecast");
