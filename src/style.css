@@ -128,74 +128,65 @@ footer {
 }
 
 @media (max-width: 500px) {
-    .weather-app { 
-    max-width: 450px;
-    }
+  .weather-app {
+    max-width: 100%;
+    margin: 20px auto;
+    padding: 10px;
+  }
 
-    .search-form-input {
-    background-color: #f9f7fe;
-    border: none;
-    border-radius: 3px;
-    width: 75%;
-    padding: 5px 10px;
+  .search-form-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+  }
 
-    }
+  .search-form-button {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 0;
+  }
 
-    .search-form-button {
-        background-color: #885df1;
-        border: none;
-        border-radius: 3px;
-        padding: 5px 10px;
-        color: white;
-        margin: left 5px;
-    }
+  .weather-app-data {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
-    .weather-app-city {
-        font-size: 25px;
-        line-height: 35px;
-    }
+  .weather-app-city {
+    font-size: 28px;
+    line-height: 36px;
+    text-align: center;
+  }
 
-    .weather-app-details {
-        font-size: 10px;
-        line-height: 14px;
-    }
+  .weather-app-details {
+    text-align: center;
+  }
 
-    .weather-app-current-temp-icon {
-        position: relative;
-        top: 15px;
-        font-size: 20px;
-        margin-right: 5px;
-    }
+  .weather-app-current-temp-value {
+    font-size: 60px;
+  }
 
-    .weather-app-current-temp-value {
-        font-size: 50px;
-        font-weight: bold;
-    }
+  .weather-app-current-temp-unit {
+    font-size: 20px;
+    top: -28px;
+  }
 
-    .weather-app-current-temp-unit {
-        position: relative;
-        top: -38px;
-        font-size: 20px;
-    }
-    .weather-app-forecast {
-        display: flex;
-        justify-content: space-around;
-        margin-top: 40px;
-    }
+  .weather-app-current-temp-icon {
+    font-size: 18px;
+    top: 10px;
+  }
 
-    .weekDay {
-        text-align: center;
-        font-size: 10px;
-        line-height: 14px;
-        color: rgba(39, 33, 66, .4);
-        margin-bottom: 10px;
-    }
+  .weather-app-forecast {
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+  }
 
-    footer {
-        border-top:1px solid #f7f7fe;
-        padding: 10px 0 0 0;
-        text-align: center;
-        font-size: 10px;
-        color: rgba(0, 0, 0, .6);
-    }
+  .weekDay {
+    font-size: 14px;
+  }
+
+  .weekDayTemps {
+    font-size: 14px;
+  }
 }
