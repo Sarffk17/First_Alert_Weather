@@ -132,16 +132,6 @@ footer {
     max-width: 450px;
     }
 
-    .weather-app-city {
-        font-size: 25px;
-        line-height: 35px;
-    }
-
-    .weather-app-details {
-        font-size: 10px;
-        line-height: 14px;
-    }
-
     .search-form-input {
     background-color: #f9f7fe;
     border: none;
@@ -160,19 +150,31 @@ footer {
         margin: left 5px;
     }
 
-    .weather-app-current-temp-icon {
-        position: relative;
+    .weather-app-city {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .weather-app-details {
         font-size: 15px;
+        line-height: 14px;
     }
 
     .weather-app-current-temp-value {
-        font-size: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+    .weather-app-current-temp-unit {
+        position: relative;
+        top: -38px;
+        font-size: 28px;
     }
 
     .weather-app-forecast {
         display: flex;
         justify-content: space-around;
-        margin-top: 40px;
+        margin-top: 20px;
     }
 
     .weekDay {
