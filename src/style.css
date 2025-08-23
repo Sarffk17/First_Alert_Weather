@@ -127,7 +127,7 @@ footer {
     color: rgba(0, 0, 0, .6);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 420px) {
   .weather-app {
     width: 100%;
     max-width: 100%;
@@ -163,11 +163,11 @@ footer {
   }
 
   .weather-app-current-temp-value {
-    font-size: 30px;
+    font-size: 20px;
   }
 
   .weather-app-current-temp-unit {
-    font-size: 12px;
+    font-size: 10px;
     top: -24px;
     margin-left: 3px;
   }
