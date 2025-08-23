@@ -160,17 +160,23 @@ footer {
         line-height: 14px;
     }
 
+    .weather-app-current-temp-icon {
+        position: relative;
+        top: 15px;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+
     .weather-app-current-temp-value {
-    font-size: 15px;
-    font-weight: bold;
-}
+        font-size: 80px;
+        font-weight: bold;
+    }
 
     .weather-app-current-temp-unit {
         position: relative;
         top: -38px;
         font-size: 28px;
     }
-
     .weather-app-forecast {
         display: flex;
         justify-content: space-around;
