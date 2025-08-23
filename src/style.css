@@ -158,7 +158,7 @@ footer {
 
   .weather-app-current-temp-icon {
     font-size: 18px;
-    top: 12px;
+    top: -12px;
     margin-right: 0px;
   }
 
