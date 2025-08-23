@@ -169,8 +169,8 @@ footer {
 
   .weather-app-current-temp-unit {
     font-size: 14px;
-    top: -40px;
-    margin-left: 40px;
+    top: -100px;
+    margin-left: 140px;
   }
 
   .weather-app-forecast {
