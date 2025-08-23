@@ -131,68 +131,67 @@ footer {
   .weather-app {
     width: 100%;
     max-width: 100%;
-    margin: 20px auto;
-    padding: 12px;
+    margin: 15px auto;
+    padding: 10px;
   }
 
   .search-form-input {
     width: 70%;
-    padding: 10px 18px;
-    font-size: 14px;
+    padding: 10px 16px;
+    font-size: 13px;
   }
 
   .search-form-button {
-    padding: 10px 18px;
-    font-size: 14px;
+    padding: 10px 16px;
+    font-size: 13px;
   }
 
   .weather-app-city {
-    font-size: 26px;
-    line-height: 34px;
+    font-size: 24px;
+    line-height: 32px;
   }
 
   .weather-app-details {
-    font-size: 14px;
+    font-size: 13px;
     line-height: 18px;
   }
 
   .weather-app-current-temp-icon {
-    font-size: 18px;
-    top: 12px;
-    margin-right: 0px;
+    font-size: 16px;
+    top: 10px;
+    margin-right: 4px;
   }
 
   .weather-app-current-temp-value {
-    font-size: 45px;
-    top: 40px;
-    right: -12px;
+    font-size: 50px;
   }
 
   .weather-app-current-temp-unit {
-    font-size: 15px;
-    top: -50px;
-    margin-left: 4px;
+    font-size: 18px;
+    top: -24px;
+    margin-left: 3px;
   }
 
   .weather-app-forecast {
-    margin-top: 30px;
+    margin-top: 25px;
     justify-content: space-between;
+    gap: 10px;
   }
 
   .weekDay {
-    font-size: 13px;
-    margin-bottom: 8px;
+    font-size: 12px;
+    margin-bottom: 6px;
   }
 
   .weekDayTemps {
-    font-size: 13px;
+    font-size: 12px;
   }
 
   .weekDayTemp {
-    padding: 0 4px;
+    padding: 0 3px;
   }
 
   footer {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
