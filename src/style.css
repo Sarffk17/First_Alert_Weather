@@ -98,7 +98,7 @@ main {
     text-align: center;
     font-size: 16px;
     line-height: 20px;
-    color: #f5f1fe;
+    color: #885df1;
     margin-bottom: 10px;
 }
 
@@ -147,7 +147,7 @@ footer {
     border: none;
     border-radius: 3px;
     width: 75%;
-    padding: 5px 15px;
+    padding: 5px 10px;
 
     }
 
@@ -155,7 +155,7 @@ footer {
         background-color: #885df1;
         border: none;
         border-radius: 3px;
-        padding: 5px 15px;
+        padding: 5px 10px;
         color: white;
         margin: left 5px;
     }
