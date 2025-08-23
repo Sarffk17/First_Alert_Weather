@@ -159,7 +159,7 @@ footer {
   .weather-app-current-temp-icon {
     font-size: 18px;
     top: 12px;
-    margin-right: 4px;
+    margin-right: 1px;
   }
 
   .weather-app-current-temp-value {
