@@ -131,29 +131,29 @@ footer {
   .weather-app {
     width: 100%;
     max-width: 100%;
-    margin: 15px auto;
-    padding: 10px;
+    margin: 10px auto;
+    padding: 5px;
   }
 
   .search-form-input {
     width: 70%;
-    padding: 10px 16px;
+    padding: 5px 10px;
     font-size: 13px;
   }
 
   .search-form-button {
-    padding: 10px 16px;
+    padding: 5px 10px;
     font-size: 13px;
   }
 
   .weather-app-city {
-    font-size: 24px;
-    line-height: 32px;
+    font-size: 20px;
+    line-height: 25px;
   }
 
   .weather-app-details {
-    font-size: 13px;
-    line-height: 18px;
+    font-size: 10px;
+    line-height: 15px;
   }
 
   .weather-app-current-temp-icon {
