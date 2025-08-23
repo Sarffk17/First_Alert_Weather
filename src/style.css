@@ -164,11 +164,12 @@ footer {
 
   .weather-app-current-temp-value {
     font-size: 45px;
+    top: 12px
   }
 
   .weather-app-current-temp-unit {
     font-size: 15px;
-    top: -5px;
+    top: 12px;
     margin-left: 4px;
   }
 
