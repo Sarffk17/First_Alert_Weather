@@ -19,8 +19,8 @@ a {
    margin: 45px auto;
    border-radius: 15px;
    padding: 15px;
-   border: 10px double rgba(80, 153, 231, .2);
-   box-shadow: 0 50px 80px rgba(80, 153, 231, 0.3);
+   border: 10px double rgba(225, 215, 253, 0.2);
+   box-shadow: 0 50px 80px rgba(225, 215, 253, 0.2);
 }
 
 header {
@@ -133,26 +133,21 @@ footer {
     }
 
     .weather-app-city {
-        margin: 0;
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 25px;
+        line-height: 35px;
     }
     .weather-app-details {
-        font-size: 13px;
-        line-height: 17px;
-        color: rgba(39, 33, 66, .4);
+        font-size: 10px;
+        line-height: 14px;
     }
 
     .weather-app-current-temp-icon {
         position: relative;
-        top: 15px;
-        font-size: 17px;
-        margin-right: 5px;
+        font-size: 15px;
     }
 
     .weather-app-current-temp-value {
-        font-size: 40px;
-        font-weight: bold;
+        font-size: 25px;
     }
 
     .weather-app-forecast {
@@ -163,8 +158,8 @@ footer {
 
     .weekDay {
         text-align: center;
-        font-size: 13px;
-        line-height: 17px;
+        font-size: 10px;
+        line-height: 14px;
         color: rgba(39, 33, 66, .4);
         margin-bottom: 10px;
     }
