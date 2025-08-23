@@ -1,5 +1,5 @@
 body {
-   background-color: rgb(171, 171, 173);
+   background-color: #f5f1fe;
     font-family: "Oswald", sans-serif;
 }
 
@@ -38,7 +38,7 @@ header {
 }
 
 .search-form-button {
-    background-color: blue;
+    background-color: #885df1;
     border: none;
     border-radius: 6px;
     padding: 15px 30px;
@@ -67,7 +67,7 @@ main {
 }
 
 .weather-app-details strong {
-    color: blue;
+    color: #885df1;
   }
 
 .weather-app-current-temp-icon {
@@ -98,7 +98,7 @@ main {
     text-align: center;
     font-size: 16px;
     line-height: 20px;
-    color: rgba(39, 33, 66, .4);
+    color: #f5f1fe;
     margin-bottom: 10px;
 }
 
@@ -110,7 +110,7 @@ main {
 
 .weekDayTemps {
     text-align: center;
-    color: blue;
+    color: #885df1;
     display: flex;
     justify-content: center;
 }
@@ -141,10 +141,6 @@ footer {
         font-size: 13px;
         line-height: 17px;
         color: rgba(39, 33, 66, .4);
-    }
-
-    .weather-app-details strong {
-        color: blue;
     }
 
     .weather-app-current-temp-icon {
