@@ -164,7 +164,7 @@ footer {
 
   .weather-app-current-temp-value {
     font-size: 45px;
-    top: -40px;
+    top: 40px;
     right: -12px;
   }
 
