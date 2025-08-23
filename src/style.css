@@ -127,3 +127,72 @@ footer {
     font-size: 13px;
     color: rgba(0, 0, 0, .6);
 }
+
+@media (max-width: 400px) {
+  .weather-app {
+    width: 80%;
+    max-width: 80%;
+    margin: 10px auto;
+    padding: 5px;
+  }
+
+  .search-form-input {
+    width: 70%;
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .search-form-button {
+    padding: 5px 10px;
+    font-size: 13px;
+  }
+
+  .weather-app-city {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .weather-app-details {
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .weather-app-current-temp-icon {
+    font-size: 16px;
+    top: 10px;
+    margin-right: 4px;
+  }
+
+  .weather-app-current-temp-value {
+    font-size: 20px;
+  }
+
+  .weather-app-current-temp-unit {
+    font-size: 10px;
+    top: -24px;
+    margin-left: 3px;
+  }
+
+  .weather-app-forecast {
+    margin-top: 25px;
+    justify-content: space-between;
+    gap: 10px;
+  }
+
+  .weekDay {
+    font-size: 12px;
+    margin-bottom: 6px;
+  }
+
+  .weekDayTemps {
+    font-size: 12px;
+  }
+
+  .weekDayTemp {
+    padding: 0 3px;
+  }
+
+  footer {
+    font-size: 11px;
+  }
+}
